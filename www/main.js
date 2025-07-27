@@ -22,7 +22,7 @@ $(document).ready(function () {
   });
 
   // siri message
-  $('.text').textillate({
+  $('.siri-message').textillate({
         loop: true,
         sync: true,
         in: {
@@ -35,6 +35,14 @@ $(document).ready(function () {
             sync: true,
         },
 
+    });
+
+    // mic button
+    $("#MicBtn").click(function (e) {  
+        $("#Oval").attr("hidden", true);
+        $("#siri-wave").attr("hidden", false);
+        eel.allCommands()()
+        
     });
 
 });
