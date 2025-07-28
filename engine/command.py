@@ -10,4 +10,4 @@ def speak(text):
     engine.runAndWait()
 
 
-    speak("Hello, this is a test of the text-to-speech engine.")
+    speak("hello i am jarvis")
