@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#MicBtn").click(function (e) {  
         $("#Oval").attr("hidden", true);
         $("#siri-wave").attr("hidden", false);
-        eel.allCommands()()
+        eel.takeCommands()()
         
     });
 
